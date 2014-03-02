@@ -1,0 +1,98 @@
+/* -------------------- */
+/* GLOBAL STYLES */
+/* -------------------- */
+/* Layout, Typography, Colors */
+html { background: #000; }
+body { background: #000; }
+h1, h2, h3, h4, h5, h6 { color: #fff }
+.bar-nav { background: #222; border-color: #222; color: #fff; }
+.bar-nav .icon { color: #e2e2e2; }
+.bar-nav .title { color: #fff; }
+.content { background: #000; text-align: center; }
+
+table { width: 100%; text-align: left; }
+table thead { width: 100%; background-color: #fafafa; color: #999; border-bottom: 1px solid #ddd; }
+table thead th { font-weight: 500; padding: 8px 16px; }
+table td { padding: 8px 16px; }
+table tr, table td { vertical-align: top; }
+table th:last-child, table td:last-child { text-align: right; }
+table tr { border-bottom: 1px solid #ddd; }
+table tr.pending { background-color: #e2e2e2; color: #999 }
+
+.popover .bar-nav { background-color: #eee; }
+.popover .bar-nav .title { color: #000; }
+.popover a { color: #000; }
+
+/* Helpers */
+.dwyer { display: block; width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; }
+.right { float: right }
+.left { float: left }
+.center { text-align: center }
+.hide, .hidden { display: none }
+.clear { clear: both }
+
+/* -------------------- */
+/* PAGE-SPECIFIC STYLES */
+/* -------------------- */
+/* Landing Screen */
+.land { margin-top: 100px; }
+.land img { max-width: 260px; margin-top: 0; }
+.land p { font-size: 120%; margin-top: 20px; }
+
+/* Home Screen */
+.home img.globe { display: block; margin: 30% auto 0 auto; }
+.home img.med { display: block; max-width: 200px; margin: 8% auto 0 auto; }
+.bar-footer-secondary { background-color: #000; border-top: 0; }
+.bar-footer-secondary a.btn-block { font-size: 150%; font-weight: bold; padding-top: 15px; padding-bottom: 15px }
+
+/* Tutorial */
+.tutorial h2 { font-weight: normal; font-size: 170%; padding: 5%; line-height: 130%; }
+.tutorial h2 em { text-transform: uppercase; }
+.tutorial h3 { font-weight: normal; margin-top: 20px; margin-bottom: 2px; font-size: 150% }
+.tutorial p { }
+.tutorial img.globe { display: block; margin: 0 auto; }
+.tutorial img.med { display: block; max-width: 200px; margin: 8% auto 0 auto; }
+.tutorial a.btn-block { font-weight: bold; margin-top: 20px; }
+
+/* Menu */
+.menu { text-align: center; }
+.menu img.med { display: block; max-width: 200px; margin: 8% auto; }
+
+/* About */
+.about { text-align: left; }
+.about img.globe { display: block; margin: 0 auto; }
+.about img.med { display: block; max-width: 200px; margin: 8% auto; }
+.about p { color: #fff; margin: 0 auto; padding: 0 40px; font-size: 100%; margin: 0 0 30px 0; }
+
+/* Credits */
+.credits { text-align: left; }
+.credits img.med { display: block; max-width: 200px; margin: 8% auto; }
+.credits p { color: #000; }
+
+/* Leaderboard */
+.leaderboard img.med { display: block; max-width: 200px; margin: 8% auto; }
+.leaderboard .description { font-size: 80%; }
+
+/* Achievements */
+.achievements img.med { display: block; max-width: 200px; margin: 8% auto; }
+.achievements td.vis { width: 40px; padding-right: 0; }
+
+/* Settings */
+.settings { text-align: left; }
+.settings img.med { display: block; max-width: 200px; margin: 8% auto; }
+.settings .description { font-size: 80%; }
+
+/* Play */
+.play h2 { margin-top: 80px }
+.play .colors { display: block; height: 70%; }
+.play .colors li { display: block; width: 100px; height: 100px; float: left; margin: 5px; }
+.play .colors li.selected { border: 5px solid #999; }
+.play .colors li.red { background-color: red; }
+.play .colors li.brown { background-color: brown; }
+.play .colors li.orange { background-color: orange; }
+.play .colors li.yellow { background-color: yellow; }
+.play .colors li.green { background-color: green; }
+.play .colors li.lightgreen { background-color: lightgreen; }
+.play .colors li.aqua { background-color: aqua; }
+.play .colors li.blue { background-color: blue; }
+.play .colors li.purple { background-color: purple; }

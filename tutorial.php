@@ -37,5 +37,8 @@
 				  </div>
 				</div>
 			</div>
+			<div class="bar bar-standard bar-footer">
+			  <a class="btn btn-block" href="play.php">PLAY SPINXSW</a>
+			</div>
 		</div>
 <?php include ('partials/after.php'); ?>

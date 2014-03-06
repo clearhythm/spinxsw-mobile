@@ -18,12 +18,13 @@
 	  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-72x72.png">
 	  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-57x57.png">
 
-	  <!-- Include the compiled Ratchet files -->
+	  <!-- Styles -->
 	  <link rel="stylesheet" href="/lib/ratchet-2.0.0/dist/ratchet.css">
-	  <script src="/lib/ratchet-2.0.0/dist/ratchet.js"></script>
-	  <script src="/lib/ratchet-2.0.0/js/sliders.js"></script>
-
-	  <!-- Custom app JS and styles -->
 	  <link rel="stylesheet" href="/style/app.css">
+
+	  <!-- Scripts -->
+	  <script src="/lib/ratchet-2.0.0/dist/ratchet.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script src="/js/play.js"></script>
   </head>
   <body>

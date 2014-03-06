@@ -9,7 +9,7 @@
 				<img src="/img/globe.png" class="globe">
 				<img src="/img/spinxsw_md.png" class="med">
 			</div>
-			<div class="bar bar-standard bar-footer-secondary">
+			<div class="bar bar-standard bar-footer">
 			  <a class="btn btn-block" href="play.php">PLAY SPINXSW</a>
 			</div>
 		</div>

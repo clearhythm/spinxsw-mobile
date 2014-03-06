@@ -1,15 +1,30 @@
 /* -------------------- */
-/* GLOBAL STYLES */
+/* GLOBAL STYLES        */
 /* -------------------- */
 /* Layout, Typography, Colors */
 html { background: #000; }
 body { background: #000; }
 h1, h2, h3, h4, h5, h6 { color: #fff }
+
+/* Nav Bars */
 .bar-nav { background: #222; border-color: #222; color: #fff; }
 .bar-nav .icon { color: #e2e2e2; }
 .bar-nav .title { color: #fff; }
+.bar-header-secondary { background-color: #000; border: 0; color: #fff; }
+.bar-header-secondary .color_block { width: 100%; margin-top: 10px; background-color: red }
+.bar-header-secondary .color_block h3 { font-size: 100%; font-weight: normal; padding: 10px; text-align: center; }
+.bar-footer { height: 64px; background-color: #222; border-top: 1px solid #222; }
+.bar-footer a.btn-block { font-size: 120%; font-weight: bold; padding-top: 15px; padding-bottom: 15px; text-transform: uppercase; }
+
+/* Popovers */
+.popover .bar-nav { background-color: #eee; }
+.popover .bar-nav .title { color: #000; }
+.popover a { color: #000; }
+
+/* Content */
 .content { background: #000; text-align: center; }
 
+/* Tables */
 table { width: 100%; text-align: left; }
 table thead { width: 100%; background-color: #fafafa; color: #999; border-bottom: 1px solid #ddd; }
 table thead th { font-weight: 500; padding: 8px 16px; }
@@ -18,10 +33,6 @@ table tr, table td { vertical-align: top; }
 table th:last-child, table td:last-child { text-align: right; }
 table tr { border-bottom: 1px solid #ddd; }
 table tr.pending { background-color: #e2e2e2; color: #999 }
-
-.popover .bar-nav { background-color: #eee; }
-.popover .bar-nav .title { color: #000; }
-.popover a { color: #000; }
 
 /* Helpers */
 .dwyer { display: block; width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; }
@@ -40,10 +51,8 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 .land p { font-size: 120%; margin-top: 20px; }
 
 /* Home Screen */
-.home img.globe { display: block; margin: 30% auto 0 auto; }
+.home img.globe { display: block; margin: 80px auto 0 auto; }
 .home img.med { display: block; max-width: 200px; margin: 8% auto 0 auto; }
-.bar-footer-secondary { background-color: #000; border-top: 0; }
-.bar-footer-secondary a.btn-block { font-size: 150%; font-weight: bold; padding-top: 15px; padding-bottom: 15px }
 
 /* Tutorial */
 .tutorial h2 { font-weight: normal; font-size: 170%; padding: 5%; line-height: 130%; }
@@ -83,16 +92,37 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 .settings .description { font-size: 80%; }
 
 /* Play */
-.play h2 { margin-top: 80px }
+.play h2 { margin-top: 40px }
 .play .colors { display: block; height: 70%; }
 .play .colors li { display: block; width: 100px; height: 100px; float: left; margin: 5px; }
 .play .colors li.selected { border: 5px solid #999; }
 .play .colors li.red { background-color: red; }
-.play .colors li.brown { background-color: brown; }
+.play .colors li.magenta { background-color: brown; }
 .play .colors li.orange { background-color: orange; }
 .play .colors li.yellow { background-color: yellow; }
 .play .colors li.green { background-color: green; }
-.play .colors li.lightgreen { background-color: lightgreen; }
+.play .colors li.mint { background-color: lightgreen; }
 .play .colors li.aqua { background-color: aqua; }
 .play .colors li.blue { background-color: blue; }
 .play .colors li.purple { background-color: purple; }
+.my_color { text-transform: uppercase; }
+.color_block h3 .my_color { font-weight: bold; }
+
+.play-active { }
+.play-active .countdown h2 { font-size: 500%; margin-top: 140px; font-weight: 500; }
+.play-active .tip h2 { font-size: 500%; margin-top: 140px; font-weight: 500; }
+.play-active .tip p { font-style: italic; font-size: 180%; line-height: 120%; margin: 0 60px; color: gold; }
+.play-active .scored { }
+.play-active .scored h2 { font-size: 500%; margin-top: 140px; font-weight: 500; }
+.play-active .scored h2 .pts { font-size: 40%; }
+.play-active .scored h3 { font-size: 180%; margin-top: 20px; }
+.play-active .scored p { font-size: 100%; }
+
+.bar-footer-play { height: 70px; }
+.bar-footer-play table { }
+.bar-footer-play thead { font-size: 200%; color: #fff; }
+.bar-footer-play thead th { padding-top: 10px; }
+.bar-footer-play thead, .bar-footer-play tr { background-color: #222; border: 0; }
+.bar-footer-play td { padding-top: 0; }
+.bar-footer-play table td { color: #999; }
+

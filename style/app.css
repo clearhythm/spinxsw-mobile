@@ -94,7 +94,7 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 /* Play */
 .play h2 { margin-top: 40px }
 .play .colors { display: block; height: 70%; }
-.play .colors li { display: block; width: 100px; height: 100px; float: left; margin: 5px; }
+.play .colors li { display: block; width: 26%; height: 100px; float: left; margin: 2%; }
 .play .colors li.selected { border: 5px solid #999; }
 .play .colors li.red { background-color: red; }
 .play .colors li.magenta { background-color: brown; }

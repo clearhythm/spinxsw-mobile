@@ -14,17 +14,19 @@
 
 	  <!-- TODO: Update these icons -->
 	  <!-- Set Apple icons for when prototype is saved to home screen -->
-	  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-114x114.png">
-	  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-72x72.png">
-	  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-57x57.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/js/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-114x114.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/js/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-72x72.png">
+	  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/js/lib/ratchet-2.0.0/dist/touch-icons/apple-touch-icon-57x57.png">
 
 	  <!-- Styles -->
-	  <link rel="stylesheet" href="/lib/ratchet-2.0.0/dist/ratchet.css">
+	  <link rel="stylesheet" href="/js/lib/ratchet-2.0.0/dist/ratchet.css">
 	  <link rel="stylesheet" href="/style/app.css">
 
 	  <!-- Scripts -->
-	  <script src="/lib/ratchet-2.0.0/dist/ratchet.js"></script>
+    <script data-main="/js/main-mobile" src="/js/lib/require-2.1.10.min.js"></script>
+
+	  <script src="/js/lib/ratchet-2.0.0/dist/ratchet.js"></script>
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	  <script src="/js/play.js"></script>
+	  <script src="/js/app/play.js"></script>
   </head>
   <body>

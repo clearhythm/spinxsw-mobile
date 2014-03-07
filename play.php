@@ -3,7 +3,7 @@
       <a href="#popover"><h2 class="title">SPINXSW <span class="icon icon-caret"></span></h2></a>
     </header>
     <div class="bar bar-standard bar-header-secondary">
-      <div class="color_block hide"><h3>You are <span class="my_color">red</span> Player</h3></div>
+      <div class="color_block hide"><h3>You're Player: <span class="my_color">red</span></h3></div>
     </div>
 		<div id="popover" class="popover">  
 		  <header class="bar bar-nav">

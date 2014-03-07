@@ -38,8 +38,12 @@ function colorMap(color_name){
   return color_values[color_name];
 }
 
+function endGame(){
+  console.log('game over');
+}
+
 function initColorPicker(){
-  $('.colors li').bind('touchstart', function(e){
+  $('body').on('touchstart', '.colors li', function(e){
     if (!$(this).hasClass('selected')) {
       $('.colors li.selected').removeClass('selected');
       // update color button, global color value, and select new color
@@ -51,7 +55,7 @@ function initColorPicker(){
 }
 
 function initPlayAs(){
-  $('#play_as').bind('touchstart', function(e){
+  $('body').on('touchstart', '#play_as', function(e){
     // hide color picker ui
     $('.play').hide();
     $('.bar-footer').hide();

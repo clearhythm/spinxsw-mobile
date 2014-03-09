@@ -41,8 +41,15 @@
 				  </div>
 				</div>
 			</div>
-			<div class="bar bar-standard bar-footer">
-			  <a class="btn btn-block" href="play.php">PLAY SPINXSW</a>
+		</div>
+		<div class="bar bar-standard bar-footer">
+			<div class="slide_nav_wrap">
+			  <div class="slide_navigator">
+					<div class="slide-dot slide-dot-one"></div>
+					<div class="slide-dot slide-dot-two"></div>
+					<div class="slide-dot slide-dot-three"></div>
+					<div class="slide-dot slide-dot-four"></div>
+				</div>
 			</div>
 		</div>
 <?php include ('partials/after.php'); ?>

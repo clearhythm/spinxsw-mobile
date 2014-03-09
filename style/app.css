@@ -34,6 +34,11 @@ table th:last-child, table td:last-child { text-align: right; }
 table tr { border-bottom: 1px solid #ddd; }
 table tr.pending { background-color: #e2e2e2; color: #999 }
 
+/* Slide navigation */
+.slide_nav_wrap { display: block; position: relative; left: -40px; margin: 20px auto 0 50%; }
+.slide_navigator .slide-dot { display: block; float: left; width: 15px; height: 15px; margin: 0 3px; background: #666; border: 1px solid #222; -moz-border-radius: 40px; border-radius: 40px; }
+.slide_navigator .slide-dot-one { background-color: #eee; }
+
 /* Helpers */
 .dwyer { display: block; width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; }
 .right { float: right }

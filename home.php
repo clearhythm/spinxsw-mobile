@@ -6,7 +6,7 @@
     </header>
     <div class="content">
 			<div class="home">
-				<img src="/img/globe.png" class="globe">
+				<img src="/img/globe_lts.png" class="globe">
 				<img src="/img/spinxsw_md.png" class="med">
 			</div>
 			<div class="bar bar-standard bar-footer">

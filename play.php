@@ -2,16 +2,19 @@
     <header class="bar bar-nav">
       <a href="#popover"><h2 class="title">SPINXSW <span class="icon icon-caret"></span></h2></a>
     </header>
-    <div class="bar bar-standard bar-header-secondary">
+    <!-- <div class="bar bar-standard bar-header-secondary">
       <div class="color_block hide"><h3>You're Player: <span class="my_color">red</span></h3></div>
-    </div>
+    </div> -->
 		<div id="popover" class="popover">  
 		  <header class="bar bar-nav">
-		    <h1 class="title">Game Paused</h1>
+		    <!-- <h1 class="title">Game Paused</h1> -->
+		    <h1 class="title">Controls</h1>
 		  </header>
 		  <ul class="table-view">
-		    <li class="table-view-cell">Resume Play</li>
-		    <a href="home.php" transition="slide-in"><li class="table-view-cell">Exit Game</li></a>
+		    <!-- <li class="table-view-cell">Resume Play</li> -->
+		    <!-- <li class="table-view-cell"><a href="home.php" transition="slide-in">Exit Game</a></li> -->
+		    <li class="table-view-cell"><a href="play.php" transition="slide-in">Pick a New Color</a></li>
+		    <li class="table-view-cell"><a href="home.php" transition="slide-in">Exit to Menu</a></li>
 		  </ul>
 		</div>
     <div class="content">
@@ -33,9 +36,13 @@
 				<div class="countdown">
 					<h2 id="countdown"></h2>
 				</div>
-				<div class="tip hide">
+				<div class="tip-old hide">
 					<h2>Play!</h2>
 					<p>Find your color<br>on the globe</p>
+				</div>
+				<div class="tip hide">
+					<h2>Shake<br>or Spin</h2>
+					<p>To create patterns!</p>
 				</div>
 				<div class="scored hide">
 					<h2>+50<span class="pts">pts</span></h2>
@@ -50,9 +57,15 @@
 				</div>
 			</div>
 			<div class="bar bar-standard bar-footer">
-			  <a id="play_as" class="btn btn-block">PLAY AS <span class="my_color">red</span></a>
+			  <a id="play_as" class="btn btn-block">PLAY WITH <span class="my_color">red</span></a>
 			</div>
+			<!-- <div class="bar bar-standard bar-footer">
+			  <a id="play_as" class="btn btn-block">PLAY AS <span class="my_color">red</span></a>
+			</div> -->
 			<div class="bar bar-standard bar-footer bar-footer-play hide">
+	      <div><h3>PLAY WITH <span class="my_color">red</span></h3></div>
+			</div>
+			<!-- <div class="bar bar-standard bar-footer bar-footer-play hide">
 			  <table>
 					<thead>
 						<tr>
@@ -67,6 +80,6 @@
 						</tr>
 					</tbody>
 				</table>
-			</div>
+			</div> -->
 		</div>
 <?php include ('partials/after.php'); ?>

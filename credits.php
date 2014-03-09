@@ -12,7 +12,7 @@
 					  <li class="table-view-cell table-view-divider">Credits</li>
 					  <li class="table-view-cell media">
 					    <a href="http://www.erikburns.com/" data-transition="slide-in">
-					      <img class="media-object pull-left" src="http://placehold.it/64x64">
+					      <img class="media-object pull-left" src="http://lumieria.com/images/proj_spinxsw/fit_200x200_team_erik.jpg">
 					      <div class="media-body">
 					        Erik Burns-Johansson
 					        <p>Concept Design &amp; Mobile Juice.<br>
@@ -22,7 +22,7 @@
 					  </li>
 					  <li class="table-view-cell media">
 					    <a href="http://www.michaelrienstra.com/" data-transition="slide-in">
-					      <img class="media-object pull-left" src="http://placehold.it/64x64">
+					      <img class="media-object pull-left" src="http://lumieria.com/images/proj_spinxsw/fit_200x200_team_michael.png">
 					      <div class="media-body">
 					        Michael Rienstra
 					        <p>JS, Node, Groove-Shark.<br>
@@ -32,7 +32,7 @@
 					  </li>
 					  <li class="table-view-cell media">
 					    <a href="http://www.lumieria.com/" data-transition="slide-in">
-					      <img class="media-object pull-left" src="http://placehold.it/64x64">
+					      <img class="media-object pull-left" src="http://lumieria.com/images/proj_spinxsw/fit_200x200_team_dave.png">
 					      <div class="media-body">
 					        Dave Loomis
 					        <p>Lights, Metal, Quantum F/X.<br>

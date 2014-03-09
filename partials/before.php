@@ -26,7 +26,7 @@
     <script data-main="/js/main-mobile" src="/js/lib/require-2.1.10.min.js"></script>
 
 	  <script src="/js/lib/ratchet-2.0.0/dist/ratchet.js"></script>
-	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script src="/js/lib/jquery-2.1.0.min.js"></script>
 	  <script src="/js/app/play.js"></script>
   </head>
   <body>

@@ -52,10 +52,10 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 
 /* Home Screen */
 .home img.globe { display: block; margin: 80px auto 0 auto; }
-.home img.med { display: block; max-width: 200px; margin: 8% auto 0 auto; }
+.home img.med { display: block; max-width: 200px; margin: 20px auto 0 auto; }
 
 /* Tutorial */
-.tutorial h2 { font-weight: normal; font-size: 170%; padding: 5%; line-height: 130%; }
+.tutorial h2 { font-weight: normal; font-size: 170%; padding: 60px 0 10px 0; line-height: 130%; }
 .tutorial h2 em { text-transform: uppercase; }
 .tutorial h3 { font-weight: normal; margin-top: 20px; margin-bottom: 2px; font-size: 150% }
 .tutorial p { }
@@ -76,6 +76,7 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 /* Credits */
 .credits { text-align: left; }
 .credits img.med { display: block; max-width: 200px; margin: 8% auto; }
+.credits img.media-object { max-width: 60px; }
 .credits p { color: #000; }
 
 /* Leaderboard */
@@ -118,7 +119,8 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 .play-active .scored h3 { font-size: 180%; margin-top: 20px; }
 .play-active .scored p { font-size: 100%; }
 
-.bar-footer-play { height: 70px; }
+.bar-footer-play { height: 60px; background-color: red }
+.bar-footer-play h3 { padding: 20px 0 0; font-size: 120%; }
 .bar-footer-play table { }
 .bar-footer-play thead { font-size: 200%; color: #fff; }
 .bar-footer-play thead th { padding-top: 10px; }

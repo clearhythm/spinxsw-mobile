@@ -62,7 +62,8 @@ function initPlayAs(){
     // show active play ui
     $('.bar-footer-play').show();
     $('.play-active').show();
-    startCountdown(3);
+    // startCountdown(3);
+    showGameBoard();
   });
 }
 
@@ -114,7 +115,7 @@ function startTime(){
 }
 
 function showGameBoard(){
-  $('.color_block').show();
+  // $('.color_block').show();
   $('.tip').show();
 }
 
@@ -122,8 +123,8 @@ function updateColors(color_name){
   $('.my_color').html(my_color);
   var color_hex = colorMap(my_color);
   var color_label = colorLabelMap(my_color);
-  $('.color_block').css('background-color', color_hex);
-  $('.color_block h3').css('color', color_label);
+  $('.bar-footer-play').css('background-color', color_hex);
+  $('.bar-footer-play h3').css('color', color_label);
 }
 
 $(document).ready(function(){

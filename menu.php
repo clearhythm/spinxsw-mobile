@@ -9,7 +9,7 @@
 				<img src="/img/spinxsw_md.png" class="med">
 				<div class="card">
 				  <ul class="table-view">
-				    <li class="table-view-cell">
+				    <!-- <li class="table-view-cell">
 							<a href="leaderboard.php" data-transition="slide-in"><span class="media-object pull-left icon icon-person"></span>
 					      <div class="media-body">Leaderboard</div></a>
 						</li>
@@ -20,7 +20,7 @@
 				    <li class="table-view-cell">
 							<a href="settings.php" data-transition="slide-in"><span class="media-object pull-left icon icon-gear"></span>
 					      <div class="media-body">Settings</div></a>
-						</li>
+						</li> -->
 				    <li class="table-view-cell">
 							<a href="about.php" data-transition="slide-in"><span class="media-object pull-left icon icon-info"></span>
 					      <div class="media-body">About</div></a>

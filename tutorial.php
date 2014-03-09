@@ -10,29 +10,33 @@
 				  <div class="slide-group">
 				    <div class="slide">
 							<h2>SPINXSW is an<br>interactive exhibit<br>controlled by your<br><em>movements</em>.</h2>
-							<img src="/img/globe.png" class="globe">
+							<img src="/img/globe_lts.png" class="globe">
 				    </div>
 				    <div class="slide">
-							<h2>Spin, shake, or jerk<br>to move your color<br>around the globe!</h2>
+							<h2><em>Shake</em> your phone<br>to create moving<br>color patterns<br>on the globe!</h2>
+							<img src="/img/gesture_shake.png">
+				    </div>
+
+				    <div class="slide">
+							<h2><em>Spin</em> your body<br>to modify the<br>speed and<br>intensity!</h2>
+							<img src="/img/gesture_spin.png">
+				    </div>
+
+				    <!-- <div class="slide">
+							<h2><em>Spin &amp; Shake</em><br>your body/phone<br>to create <em>art</em><br>on the globe!</h2>
 							<img src="/img/gestures.png">
-				    </div>
-				    <div class="slide">
+				    </div> -->
+				    <!-- <div class="slide">
 							<h2>Play &amp; Unlock<br>achievements!</h2>
-							<img src="/img/globe.png" class="globe">
+							<img src="/img/globe_lts.png" class="globe">
 							<h3>&#8220;Around the World&#8221;</h3>
 							<p>Complete 1 full loop around a ring</p>
-				    </div>
+				    </div> -->
 				    <div class="slide">
-							<h2>Try combo moves<br>with other players!</h2>
-							<img src="/img/globe.png" class="globe">
-							<h3>&#8220;Joy Ride&#8221;</h3>
-							<p>Draft behind another player 2 sec</p>
-				    </div>
-				    <div class="slide">
-							<h2>Ready to Begin?</h2>
-							<img src="/img/globe.png" class="globe">
-							<img src="/img/spinxsw_md.png" class="med">
-							<a class="btn btn-block" href="play.php">PLAY SPINXSW</a>
+							<h2><em>Create Art</em><br>as other people&#8217;s<br>colors interact<br>with your own!</h2>
+							<a href="play.php"><img src="/img/color_tap.png"></a>
+							<!-- <h3>&#8220;Joy Ride&#8221;</h3>
+							<p>Draft behind another player 2 sec</p> -->							
 				    </div>
 				  </div>
 				</div>

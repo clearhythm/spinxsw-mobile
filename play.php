@@ -43,6 +43,9 @@
 				<div class="tip hide">
 					<h2>Shake<br>or Spin</h2>
 					<p>To create patterns!</p>
+			    <p id="textOutput1"></p>
+			    <p id="textOutput2"></p>
+			    <p id="textOutput3"></p>
 				</div>
 				<div class="scored hide">
 					<h2>+50<span class="pts">pts</span></h2>

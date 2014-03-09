@@ -1,6 +1,18 @@
 define({
   isMobile: navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/) || false,
 
+  constrainPeriodic: function (val, max, maxInclusive) {
+    if (maxInclusive && val === max) return val;
+
+    val = val % max;
+
+    if (val < 0) {
+      val = max + val;
+    }
+
+    return val;
+  },
+
   // http://stackoverflow.com/questions/8648892/convert-url-parameters-to-a-javascript-object#8649003
   getToObject: function(){
     var search = location.search.substring(1);
@@ -14,6 +26,15 @@ define({
     } else {
       return {};
     }
+  },
+
+  plusOrMinus: function(){
+    // Randomly returns -1 or 1
+    return Math.round(Math.random()) * 2 - 1;
+  },
+
+  redirectToURL: function(url){
+    window.location.href = url;
   },
 
   // todo: Support more types? Find a better function? Just threw this one together.
@@ -35,22 +56,5 @@ define({
     }
 
     return output;
-  },
-
-  plusOrMinus: function(){
-    // Randomly returns -1 or 1
-    return Math.round(Math.random()) * 2 - 1;
-  },
-
-  constrainPeriodic: function (val, max, maxInclusive) {
-    if (maxInclusive && val === max) return val;
-
-    val = val % max;
-
-    if (val < 0) {
-      val = max + val;
-    }
-
-    return val;
   }
 });

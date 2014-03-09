@@ -33,7 +33,7 @@
 							<p>Complete 1 full loop around a ring</p>
 				    </div> -->
 				    <div class="slide">
-							<h2><em>Create Art</em><br>as other people&#8217;s<br>colors interact<br>with your own!</h2>
+							<h2>Watch other people&#8217;s<br>patterns interact<br>with your own,<br><em>get creative</em>!</h2>
 							<a href="play.php"><img src="/img/color_tap.png"></a>
 							<!-- <h3>&#8220;Joy Ride&#8221;</h3>
 							<p>Draft behind another player 2 sec</p> -->							

@@ -6,7 +6,7 @@
  * V1.0.0 designed by spinxsw.
  * =====================================================
  */
-define(['jquery', '/js/app/utils-mobile', '/js/app/remote'],
+define(['jquery', '/js/app/utils-mobile', '/js/app/remote-mobile'],
 function ($, utils, remote) {
   // Local Vars
   var alphaCenter,

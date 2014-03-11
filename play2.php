@@ -15,7 +15,7 @@
 			<div class="play-active">
 				<div class="tip">
 					<h2>Shake<br>Your<br>Phone</h2>
-					<p>To create patterns!</p>
+					<p>To create patterns<br>on the globe!</p>
 			    <p id="textOutput1"></p>
 			    <p id="textOutput2"></p>
 			    <p id="textOutput3"></p>

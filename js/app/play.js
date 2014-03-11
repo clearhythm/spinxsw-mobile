@@ -6,7 +6,7 @@
  * V1.0.0 designed by @erikburns.
  * =====================================================
  */
-define(['jquery', '/js/app/detect'],
+define(['jquery', '/js/app/detect.js'],
 function ($, detect) {
 
   var my_color = 'red';

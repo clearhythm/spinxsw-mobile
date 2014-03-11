@@ -1,4 +1,4 @@
-define(['jquery', '/js/app/remote-mobile', '/js/app/utils-mobile', '/js/app/play'],
+define(['jquery', '/js/app/remote-mobile.js', '/js/app/utils-mobile.js', '/js/app/play.js'],
 function ($, remote, utils, play) {
   var app = {
     init: function(){

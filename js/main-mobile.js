@@ -28,7 +28,7 @@ requirejs.onError = function (err) {
 
 // Let's kick off the application
 require([
-  '/js/app/app-mobile'
+  '/js/app/app-mobile.js'
 ], function(app){
   app.init();
 });

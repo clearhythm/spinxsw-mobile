@@ -6,8 +6,8 @@
  * V1.0.0 designed by spinxsw.
  * =====================================================
  */
-define(['jquery', '/js/app/utils-mobile'],
-function ($, utils) {
+define(['jquery', '/js/app/utils-mobile', '/js/app/remote'],
+function ($, utils, remote) {
   // Local Vars
   var alphaCenter,
     alphaStart,
@@ -28,7 +28,6 @@ function ($, utils) {
         alphaCenter = intensityA;
         alphaStart = utils.constrainPeriodic(alphaCenter - 90, 360);
         alphaEnd = utils.constrainPeriodic(alphaCenter + 90, 360);
-        $('#textOutput1').text('alphaCenter = ' + Math.round(alphaCenter) + ', alphaStart = ' + Math.round(alphaStart) + ', alphaEnd = ' + Math.round(alphaEnd));
       } else if (intensityA !== previousAlpha) {
         if (
           (alphaEnd > alphaStart && intensityA >= alphaStart && intensityA <= alphaEnd) ||
@@ -51,10 +50,8 @@ function ($, utils) {
           intensityA = 'n/a';
         }
 
-        $('#textOutput2').text('eventData.alpha = ' + Math.round(eventData.alpha) + ', intensityA = ' + intensityA);
-
         if (outputIntensityA !== void 0 && outputIntensityA !== 'n/a') {
-          $('#intensityA').css('left', (outputIntensityA * 100) + '%');
+          remote.send({ intensityA: outputIntensityA });
         }
 
         previousIntensityA = intensityA;
@@ -79,10 +76,8 @@ function ($, utils) {
           outputIntensityB = intensityB = Math.round((1 - (intensityB + 45) / 90) * 100) / 100;
         }
 
-        $('#textOutput3').text('eventData.beta = ' + Math.round(eventData.beta) + ', intensityB = ' + intensityB);
-
         if (outputIntensityB !== void 0 && outputIntensityB !== 'n/a') {
-          $('#intensityB').css('top', (outputIntensityB * 100) + '%');
+          remote.send({ intensityB: outputIntensityB });
         }
 
         previousIntensityB = intensityB;
@@ -96,6 +91,7 @@ function ($, utils) {
     init: function(){
       // Add listener to device motion events
       $(document).ready(function(){
+        remote.init('ws://quiet-earth-2640.herokuapp.com');
         window.addEventListener('deviceorientation', detect.deviceOrientationHandler, false);
       });
     }

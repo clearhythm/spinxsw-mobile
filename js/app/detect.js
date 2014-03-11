@@ -37,14 +37,14 @@ function ($, utils, remote, shake) {
           if (intensityA < 0) {
             intensityA += 360;
           }
-          outputIntensityA = intensityA = Math.round((180 - intensityA) * 100 / 180) / 100;
+          outputIntensityA = intensityA = Math.round((180 - intensityA) * 1000 / 180);
         } else {
           if (previousIntensityA !== 'n/a') {
             // todo: could also be based on previous delta
-            if (previousIntensityA < 0.5) {
+            if (previousIntensityA < 500) {
               outputIntensityA = 0;
             } else {
-              outputIntensityA = 1;
+              outputIntensityA = 1000;
             }
           }
           intensityA = 'n/a';
@@ -64,16 +64,16 @@ function ($, utils, remote, shake) {
         if (intensityB > 45 || intensityB < -45) {
           if (previousIntensityB !== 'n/a') {
             // todo: could also be based on previous delta
-            if (previousIntensityB < 0.5) {
+            if (previousIntensityB < 500) {
               outputIntensityB = 0;
             } else {
-              outputIntensityB = 1;
+              outputIntensityB = 1000;
             }
           }
 
           intensityB = 'n/a';
         } else {
-          outputIntensityB = intensityB = Math.round((1 - (intensityB + 45) / 90) * 100) / 100;
+          outputIntensityB = intensityB = Math.round((1 - (intensityB + 45) / 90) * 1000);
         }
 
         if (outputIntensityB !== void 0 && outputIntensityB !== 'n/a') {

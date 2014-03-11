@@ -6,8 +6,8 @@
  * V1.0.0 designed by spinxsw.
  * =====================================================
  */
-define(['jquery', '/js/app/utils-mobile.js', '/js/app/remote-mobile.js'],
-function ($, utils, remote) {
+define(['jquery', '/js/app/utils-mobile.js', '/js/app/remote-mobile.js', 'shake'],
+function ($, utils, remote, shake) {
   // Local Vars
   var alphaCenter,
     alphaStart,
@@ -93,6 +93,9 @@ function ($, utils, remote) {
       $(document).ready(function(){
         remote.init('ws://quiet-earth-2640.herokuapp.com');
         window.addEventListener('deviceorientation', detect.deviceOrientationHandler, false);
+        window.addEventListener('shake', function(){
+          remote.send({gesture: 'shake'});
+        }, false);
       });
     }
   }

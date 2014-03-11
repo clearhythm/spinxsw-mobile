@@ -65,7 +65,7 @@ function ($, detect) {
         $('.play').hide();
         $('.bar-footer').hide();
         // show active play ui
-        $('.bar-footer-play').show();
+        // $('.bar-footer-play').show();
         $('.play-active').show();
         // startCountdown(3);
         play.showGameBoard();
@@ -128,8 +128,8 @@ function ($, detect) {
       $('.my_color').html(play.my_color);
       var color_hex = play.colorMap(play.my_color);
       var color_label = play.colorLabelMap(play.my_color);
-      $('.bar-footer-play').css('background-color', color_hex);
-      $('.bar-footer-play h3').css('color', color_label);
+      // $('.bar-footer-play').css('background-color', color_hex);
+      // $('.bar-footer-play h3').css('color', color_label);
     }
   };
 

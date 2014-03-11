@@ -13,7 +13,7 @@
 		  <ul class="table-view">
 		    <!-- <li class="table-view-cell">Resume Play</li> -->
 		    <!-- <li class="table-view-cell"><a href="home.php" transition="slide-in">Exit Game</a></li> -->
-		    <li class="table-view-cell"><a href="play.php" transition="slide-in">Pick a New Color</a></li>
+		    <!-- <li class="table-view-cell"><a href="play2.php" transition="slide-in">Pick a New Color</a></li> -->
 		    <li class="table-view-cell"><a href="home.php" transition="slide-in">Exit to Menu</a></li>
 		  </ul>
 		</div>
@@ -41,7 +41,7 @@
 					<p>Find your color<br>on the globe</p>
 				</div>
 				<div class="tip hide">
-					<h2>Shake<br>or Spin</h2>
+					<h2>Shake<br>Your<br>Phone</h2>
 					<p>To create patterns!</p>
 			    <p id="textOutput1"></p>
 			    <p id="textOutput2"></p>

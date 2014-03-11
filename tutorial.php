@@ -1,7 +1,7 @@
 <?php include('partials/before.php'); ?>
     <header class="bar bar-nav">
 			<a class="btn pull-left" href="home.php" data-transition="slide-out">Home</a>
-		  <a class="btn pull-right" href="play.php">Play</a>
+		  <a class="btn pull-right" href="play2.php">Play</a>
       <h2 class="title">SPINXSW</h2>
     </header>
     <div class="content content-padded">
@@ -18,7 +18,7 @@
 				    </div>
 
 				    <div class="slide">
-							<h2><em>Spin</em> your body<br>to modify the<br>speed and<br>intensity!</h2>
+							<h2><em>Rotate</em> your phone<br>to modify the<br>visual effects!</h2>
 							<img src="/img/gesture_spin.png">
 				    </div>
 
@@ -34,7 +34,7 @@
 				    </div> -->
 				    <div class="slide">
 							<h2>Watch other people&#8217;s<br>patterns interact<br>with your own,<br><em>get creative</em>!</h2>
-							<a href="play.php"><img src="/img/color_tap.png"></a>
+							<a href="play2.php"><img src="/img/color_tap.png"></a>
 							<!-- <h3>&#8220;Joy Ride&#8221;</h3>
 							<p>Draft behind another player 2 sec</p> -->							
 				    </div>

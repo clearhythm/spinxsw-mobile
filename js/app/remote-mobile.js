@@ -5,7 +5,7 @@ function (ReconnectingWebSocket, _) {
   var remote = {
     init: function(){
       var host = location.origin.replace(/^http/, 'ws');
-      ws = new ReconnectingWebSocket(host);
+      ws = new ReconnectingWebSocket(172.10.10.143); ///host);
       window.ws = ws;
     },
 

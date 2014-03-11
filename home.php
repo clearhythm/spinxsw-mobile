@@ -10,7 +10,7 @@
 				<img src="/img/spinxsw_md.png" class="med">
 			</div>
 			<div class="bar bar-standard bar-footer">
-			  <a class="btn btn-block" href="play.php">PLAY SPINXSW</a>
+			  <a class="btn btn-block" href="play2.php">PLAY SPINXSW</a>
 			</div>
 		</div>
 <?php include ('partials/after.php'); ?>

@@ -44,7 +44,8 @@ table tr.pending { background-color: #e2e2e2; color: #999 }
 .right { float: right }
 .left { float: left }
 .center { text-align: center }
-.hide, .hidden { display: none }
+.hide { display: none }
+.hidden { visibility: none }
 .clear { clear: both }
 
 /* -------------------- */
